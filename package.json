@@ -4,27 +4,26 @@
     "url": "git+https://github.com/WilhelmYakunin/frontend-project-lvl2.git"
   },
   "name": "frontend-project-lvl2",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "",
-  "main": "gendiff.js",
+  "main": "src/gendiff.js",
   "scripts": {
-    "test": "npx -n --experimental-vm-modules jest",
-    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls"
+    "test": "jest"
   },
   "type": "module",
   "bin": {
     "gendiff": "bin/gendiff.js"
   },
-  "keywords": [],
-  "author": "Wilhelm",
+  "keywords": ["find difference in the documents"],
+  "author": "Vitalii_Iakunin",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/WilhelmYakunin/frontend-project-lvl2/issues"
   },
   "homepage": "https://github.com/WilhelmYakunin/frontend-project-lvl2#readme",
   "dependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.18.6",
     "commander": "^5.1.0",
-    "filesystem": "^1.0.1",
     "ini": "^1.3.5",
     "js-yaml": "^3.14.0",
     "lodash": "^4.17.19"
